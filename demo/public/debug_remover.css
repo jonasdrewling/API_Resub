@@ -1,0 +1,11 @@
+#arjsDebugUIContainer, .a-enter-vr-button {
+	display: none;
+}
+
+.fade {
+	opacity: 1;
+   transition: opacity 1.25s ease-in-out;
+   -moz-transition: opacity 1.25s ease-in-out;
+   -webkit-transition: opacity 1.25s ease-in-out;
+   color: red;
+}
