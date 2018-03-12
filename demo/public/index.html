@@ -3,10 +3,11 @@
     <head>
 
     <!-- A-Frame library.various -->
-    <script src="\demo\public\build\aframe.js"></script>
+    <script src="/demo/public/build/aframe.js"></script>
     
 	<!-- AR.js library. -->
-    <script src="\demo\public\build\aframe-ar.js"></script>
+    <script src="/demo/public/build/aframe-ar.js"></script>
+
     
 	<!-- An extention for A-frame thjat enables opacity options. -->
     <script src="opacity.js"></script>
@@ -17,18 +18,18 @@
     </head>
     <body>
 
-        <!-- Set the scene. We enabled antialiasing and embedded the artoolkit. -->
-        <scene embedded artoolkit= "sourceType: webcam" antialiasing="true">
+        <!-- Set the scene. We enabled antialiasing,embedded the artoolkit and adjusted the width and height. -->
+        <a-scene embedded artoolkit="sourceType: webcam; sourceWidth: 240; sourceHeight: 180;" antialias="true">
 
                 <!-- The background Marker. -->
                 <a-marker preset="hiro">
 
                         <!-- The image is added here just like an ordinary image. We scale, rotate, position and add opacity. -->
-                        <a-image src="/demo/public/lib/images/whiteboard.jpg" scale="3.5 3.5 3.5" rotation="-100 0 0" opacity="1" position="0 -1 0"></a-image>
+                        <a-image src="/demo/public/lib/images/whiteboard.jpg" scale="8 8 8" rotation="-100 0 0" opacity="1" position="0 -1 0"></a-image>
                 </a-marker>
             
             <!-- Set the camera. We made the rotation standard and added controls to beable to move the camera on the fly. -->
-            <a-camera-static rotation= "0 0 0" camera look-controls- wasd-controls></a-camera-static>
+            <a-camera-static rotation="0 0 0" camera look-controls- wasd-controls>
         </scene>
     </body>
 </html>
