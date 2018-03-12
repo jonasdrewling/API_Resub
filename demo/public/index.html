@@ -27,7 +27,16 @@
                         <!-- The image is added here just like an ordinary image. We scale, rotate, position and add opacity. -->
                         <a-image src="/demo/public/lib/images/whiteboard.jpg" scale="8 8 8" rotation="-100 0 0" opacity="1" position="0 -1 0"></a-image>
                 </a-marker>
-            
+
+                <!-- The first pattern marker added. -->
+                <a-marker type="pattern" url="/demo/public/lib/markers/1.patt">
+
+                    <!-- An image is applied to the marker. -->
+                    <a-image src="/demo/public/lib/images/we_recycle.gif" scale="3.5 3.5 3.5" rotation="-100 0 0" opacity="1" position="0 -1 0"></a-image>
+                </a-marker>
+
+
+
             <!-- Set the camera. We made the rotation standard and added controls to beable to move the camera on the fly. -->
             <a-camera-static rotation="0 0 0" camera look-controls- wasd-controls>
         </scene>
