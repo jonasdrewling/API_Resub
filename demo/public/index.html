@@ -2,22 +2,26 @@
 <html>
     <head>
 
-    <!-- AFRAME BUILD -->
+    <!-- A-Frame library. -->
     <script src="/demo/public/build/aframe.js"></script>
     
-	<!-- AR.js BUILD-->
+	<!-- AR.js library. -->
     <script src="/demo/public/build/aframe-ar.js"></script>
     
-	<!-- AFRAME OPACITY EXTENSION -->
+	<!-- An extention for A-frame thjat enables opacity options. -->
     <script src="opacity.js"></script>
     
-	<!-- HIDES DEFAULT DEBUGGING UI -->
+	<!-- Hiding the default debugging UI. -->
     <link href="debug_remover.css" rel="stylesheet">
     
     </head>
     <body>
+
+        <!-- Set the scene. We enabled antialiasing and embedded the artoolkit. -->
         <scene embedded artoolkit= "sourceType: webcam" antialiasing="true">
             
+            <!-- Set the camera. We made the rotation standard and added controls to beable to move the camera on the fly. -->
+            <a-camera-static rotation= "0 0 0" camera look-controls- wasd-controls></a-camera-static>
         </scene>
     </body>
 </html>
