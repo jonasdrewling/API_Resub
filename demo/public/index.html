@@ -36,24 +36,35 @@
                 </a-marker>
 
                 <!-- Next marker. -->
-                <a-marker type="pattern" url="/demo/public/lib/markers/2.patt">
+                <a-marker type="pattern" url="/demo/public/lib/markers/1.patt">
 
                     <!-- Next image. -->
                     <a-image src="/demo/public/lib/images/we_recycle.gif" scale="2.5 2.5 2.5" rotation="-100 0 0" opacity="1" position="0 -1 0"></a-image>
+                </a-marker>
+		
+		
+		  <!-- Marker 2. -->
+                <a-marker type="pattern" url="/demo/public/lib/markers/2.patt">
 
-                    <!-- Adding text as an object so we can animate it. -->
-                    <a-entity id="marker2" material="color: red" obj-model="obj: url(/demo/public/lib/images/we_recycle_3.obj)" rotation="0 0 0" position="3.3 -0.8 -0.5" scale="0.2 0.2 0.2" opacity="1">
-        
-                        <!--Here we can define an animation for our object. In this case we are changing the opacity to go from 0 to 1 once.-->
-                        <a-animation attribute="model-opacity"
-                        dur="10000"
-                        from="0"
-                        to="1"
-                        repeat="1"></a-animation>
-                      </a-entity>
+                    <!-- Bin image. -->
+                    <a-image src="/demo/public/lib/images/bins.jpg" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
                 </a-marker>
 
+		
+		 <!-- Marker 3. -->
+                <a-marker type="pattern" url="/demo/public/lib/markers/3.patt">
 
+                    <!-- Collaborate image. -->
+                    <a-image src="/demo/public/lib/images/collaborate.jpg" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
+                </a-marker>
+		
+		
+		<!-- Marker 4. -->
+                <a-marker type="pattern" url="/demo/public/lib/markers/3.patt">
+
+                    <!-- Collaborating image. -->
+                    <a-image src="/demo/public/lib/images/collaborating.jpg" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
+                </a-marker>
 
             <!-- Set the camera. We made the rotation standard and added controls to beable to move the camera on the fly. -->
             <a-camera-static rotation="0 0 0" camera look-controls- wasd-controls>
