@@ -50,3 +50,5 @@ Check out our attributes in the demo folder index.html
 
 
 
+## Link to GitHub:
+https://github.com/jonasdrewling/API_Resub
