@@ -28,17 +28,17 @@
                         <a-image src="/demo/public/lib/images/whiteboard.jpg" scale="8 8 8" rotation="-100 0 0" opacity="1" position="0 -1 0"></a-image>
                 </a-marker>
 
-                <!-- The first pattern marker added. -->
+                <!-- Marker 1. -->
                 <a-marker type="pattern" url="/demo/public/lib/markers/1.patt">
 
-                    <!-- An image is applied to the marker. -->
+                    <!-- An image is applied to the marker, recycle image. -->
                     <a-image src="/demo/public/lib/images/we_recycle.gif" scale="2.5 2.5 2.5" rotation="-100 0 0" opacity="1" position="0 -1 0"></a-image>
                 </a-marker>
 
-                <!-- Next marker. -->
+                <!-- Marker 2. -->
                 <a-marker type="pattern" url="/demo/public/lib/markers/2.patt">
 
-                    <!-- Next image. -->
+                    <!-- An image + text. -->
                     <a-image src="/demo/public/lib/images/we_recycle.gif" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
                     <a-entity id="marker2" material="color: red" obj-model= "obj:url(/demo/public/lib/images/we_recycle_3.obj)" rotation="0 0 0" position="3.3 -0.8 -0.5" scale="0.2 0.2 0.2" opacity="1">
                     <a-animation attribute="model-opacity" 
@@ -52,44 +52,57 @@
                 </a-marker>
 		
 		
-		  
 		
 		 <!-- Marker 3. -->
                 <a-marker type="pattern" url="/demo/public/lib/markers/3.patt">
 
-                    <!-- Collaborate image. -->
-                    <a-image src="/demo/public/lib/images/collaborate.jpg" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
+                    <!-- Collaboration image. -->
+                    <a-image src="/demo/public/lib/images/collaboration.jpg" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
+                </a-marker>" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
                 </a-marker>
-		
-		
-		<!-- Marker 4. -->
-                <a-marker type="pattern" url="/demo/public/lib/markers/4.patt">
+
+        <!-- Marker 4. -->
+        <a-marker type="pattern" url="/demo/public/lib/markers/4.patt">
+
+            <!-- Collaboration image + text. -->
+            <a-image src="/demo/public/lib/images/collaboration.jpg" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
+            <a-entity id="marker2" material="color: red" obj-model= "obj:url(/demo/public/lib/images/)" rotation="0 0 0" position="3.3 -0.8 -0.5" scale="0.2 0.2 0.2" opacity="1">
+            <a-animation attribute="model-opacity" 
+            dur="10000"
+            from="0"
+            to="1"
+            repeat="1"
+            ></a-animation>
+            
+            </a-entity>
+        </a-marker>
+
+
+        <!-- Marker 3. -->
+                <a-marker type="pattern" url="/demo/public/lib/markers/3.patt">
 
                     <!-- Collaboration image. -->
                     <a-image src="/demo/public/lib/images/collaboration.jpg" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
-                </a-marker>
-		
-		<!-- Marker 5. -->
-                <a-marker type="pattern" url="/demo/public/lib/markers/5.patt">
-
-                    <!-- Seagull image. -->
-                    <a-image src="/demo/public/lib/images/Seagull.jpg" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
-                </a-marker>
-		
-		<!-- Marker 6. -->
-                <a-marker type="pattern" url="/demo/public/lib/markers/6.patt">
-
-                    <!-- Footprint image. -->
-                    <a-image src="/demo/public/lib/images/footprint.jpg" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
+                </a-marker>" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
                 </a-marker>
 
-        <!-- Marker 7. -->
-        <a-marker type="pattern" url="/demo/public/lib/markers/7.patt">
+        <!-- Marker 4. -->
+        <a-marker type="pattern" url="/demo/public/lib/markers/4.patt">
 
-            <!-- Bin image. -->
-            <a-image src="/demo/public/lib/images/bins.jpg" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
+            <!-- Collaboration image + text. -->
+            <a-image src="/demo/public/lib/images/collaboration.jpg" scale="2.5 2.5 2.5" position="0 -1 0"></a-image>
+            <a-entity id="marker2" material="color: red" obj-model= "obj:url(/demo/public/lib/images/)" rotation="0 0 0" position="3.3 -0.8 -0.5" scale="0.2 0.2 0.2" opacity="1">
+            <a-animation attribute="model-opacity" 
+            dur="10000"
+            from="0"
+            to="1"
+            repeat="1"
+            ></a-animation>
+            
+            </a-entity>
         </a-marker>
-
+		
+		
 
             <!-- Set the camera. We made the rotation standard and added controls to beable to move the camera on the fly. -->
             <a-camera-static rotation="0 0 0" camera look-controls- wasd-controls>
