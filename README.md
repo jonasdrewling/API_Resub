@@ -29,8 +29,13 @@ If you don’t want to download the repository, there is a running Glitch demo t
 
 Glitch: https://glitch.com/edit/#!/api-resub?path=index.html:2:15
 
+# Tips and Troubleshooting
 
-# The inspector
+## 3D Models
+The easiest way to create your own 3D models is to use a program like Blender which has the capability to export .obj files built into it. Blender is difficult to use if you are new to 3D modelling, so I recommend using something much simpler like SketchUp to create your models. Just export your models from SketchUp in .dae format, then import the .dae file into blender and then finally export from blender as a .obj file.
+
+
+## The inspector
 A-frame has it's own built in inspector that you can use in your browser to examine what's going on within the scene you have created. Unfortunately there is not much documentation on how to use the inspector anywhere, but here is what we've learned:
 Open it in your browser with ctrl + alt + i
 Zoom, rotate, pan: There are little markers in the top right of the inspector.
