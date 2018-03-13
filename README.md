@@ -9,7 +9,8 @@ This scenario displays the use of images and object files. Note that you can add
 
 The way to add objects in the GitHub repository is flawed and therefore we’ve added a troubleshooting section at the bottom that explains how we did it.
 
-
+## Link to DEMO VIDEO:
+https://vimeo.com/259891851
 
 # Installation
 
