@@ -1,4 +1,4 @@
-# Virtual Whiteboard with AR.js
+# Augmented Whiteboard with AR.js
 
 
 This demo enables you to visualize and brainstorm information using augmented reality. AR.js provides a set of tools for making collaborative tools. In this demo we can visualize images and text and rearrange and sort the information how we see fit. We explored the augmented reality with an overlay. You can view just images or have the image with more information on display. Animations used make the text fade in nicely. 
