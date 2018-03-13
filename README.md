@@ -1,4 +1,3 @@
-# API_Resub
 # Virtual Whiteboard with AR.js
 
 
